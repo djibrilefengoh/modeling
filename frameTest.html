@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>HTML Frames</title></head>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <frameset rows = "10%,80%,10%">
+        <frame name = "top" src="top_frame.html">
+        <frame name = "main" src="main_frame.html">
+        <frame name = "bottom" src="bottom_frame.html">
+        <noframes>
+            <body>
+                my brower will support frames
+                <form action="" method="post">
+                    <div class="name">
+                        <label for="Name"></label>
+                        <input type="text" id="Name" placeholder="Name">
+                    </div>
+                    <div class="email">
+                        <label for="Email"></label>
+                        <input type="email" id="Email" placeholder="Email">
+                    </div>
+                    <div class="password">
+                        <label for="Password"></label>
+                        <input type="password" id="Password" placeholder="Password">
+                    </div>
+                    <div class="sex">
+                        <label for="Sex"></label>
+                        <input type="radio" id="Sex" placeholder="Sex">
+                    </div>
+                    <div class="date">
+                        <label for="date"></label>
+                        <input type="date" id="date" placeholder="Date of birth">
+                    </div>
+                    <div class="country">
+                        <select name="country" id="Country">
+                            <option value="Cameroon"></option>
+                            <option value="Niger"></option>
+                            <option value="USA"></option>
+                        </select>
+                    </div>
+                    <button>submit</button>
+                </form>
+            </body>
+        </noframes>
+    </frameset>
+</html> 
